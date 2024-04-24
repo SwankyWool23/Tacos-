@@ -1,0 +1,35 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.image-container {
+  max-width: 300px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#yes-btn {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+#no-btn {
+  background-color: red;
+  color: white;
+}
